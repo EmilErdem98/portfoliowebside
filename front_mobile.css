@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("img/background_mobile.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+/* Text */
+
+h1 {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+p {
+  text-align: left;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  margin: 20px 0;
+  line-height: 1.5em;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+footer p {
+  font-size: 15px;
+  padding-top: 170px;
+  text-align: center;
+}
+
+/* Images */
+
+.logo img {
+  max-width: 200px;
+  padding-top: 25px;
+}
+
+img {
+  width: 370px;
+  height: auto;
+  padding-top: 80px;
+  padding-left: 11px;
+}
+
+.custom-button {
+  padding-left: 100px;
+  padding-bottom: 100px;
+}
+
+.custom-button img {
+  width: 170px;
+  height: auto;
+}
+
+/* Burgermenu/navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 7px;
+}
+
+.burger-menu {
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 3px;
+}
+
+.menu {
+  list-style: none;
+  display: none;
+  position: absolute;
+  top: 8.7%;
+  left: 0%;
+  background-color: hsl(209, 68%, 54%);
+  width: 89.8%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.menu.show {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li a {
+  color: #fff;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+.menu li a:hover {
+  color: #000000;
+  font-size: 20px;
+}
+
+/* Layout */
+
+.item-1-video video {
+  width: 70%;
+  height: 70%;
+  padding-top: 20%;
+  padding-left: 15%;
+}
